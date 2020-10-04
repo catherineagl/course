@@ -1,33 +1,26 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #4d79ff;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #e6ecff;
   border-radius: 0;
   border: 0;
-}
-
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+  padding-bottom: 20px;
 }
 
 .navbar-brand {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
+.navbar-brand h1 {
+  font-family: Arial, serif;
+  color: #00124d;
+  font-size: 1.8em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -37,45 +30,22 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
+
 
 #nav-list {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: ##00124d;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+  background: #00124d;
+  color: #fff;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #00124d;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -83,3 +53,28 @@ body {
 }
 /* END HEADER */
 
+.row {
+  background: #e6ecff;
+  color:  #00124d ;
+}
+
+.container-title {
+  padding-bottom: 20px;
+  font-weight: bold;
+  color:  #00124d;
+}
+
+section h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+li {
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 766px) {
+  .row {
+    margin: 0px 30px;
+  }
+}
